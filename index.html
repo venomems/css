@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>html</title>
+	<title>css</title>
 	<link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
@@ -16,17 +16,17 @@
 
 
 		<div class="card">
-			<p><strong>Список задач:</strong></p>
+			<p class="main__title">Список задач:</p>
 			<ul>
 				<li>React hooks</li>
 				<li>SASS</li>
 				<li>Docker</li>
 			</ul>
-			<button>Сделать</button>
+			<button class="button">Сделать</button>
 		</div>
 
 		<div class="card">
-			<h3>Матрица</h3>
+			<h3 class="main__title">Матрица</h3>
 			<table>
 				<tr>
 					<td>1</td>
@@ -55,6 +55,7 @@
 
 		<div class="card">
 			<form action="">
+				<h3 class="main__title">Данные</h3>
 				<label for="name">Имя:</label>
 				<input type="text" id="name">
 				<br>
@@ -67,7 +68,7 @@
 				<input type="checkbox" id="checkbox">
 				<input type="radio" id="radio">
 				<br>
-				<input type="submit" id="submit">
+				<input class="button" type="submit" id="submit">
 			</form>
 		</div>
 	</div>

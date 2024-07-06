@@ -7,6 +7,8 @@ body {
 	background-color: #FFFFE0;
 	color: black;
 	font-size: 20px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 600px;
 }
 
 .container {
@@ -30,4 +32,21 @@ body {
 .img {
 	width: 300px;
 	border-radius: 15px;
+}
+
+.main__title {
+	font-size: 23px;
+	font-weight: 800;
+	margin-bottom: 10px;
+}
+
+.button {
+	width: 130px;
+	height: 30px;
+	border-radius: 25px;
+	background-color: #87CEFA;
+	cursor: pointer;
+	border: 0;
+	margin-top: 15px;
+	font-family: inherit;
 }
